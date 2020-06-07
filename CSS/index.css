@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Start Navigation bar*/
+nav{
+    background-color: white;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.navbar .navbar-brand>img{
+    height: 70px;
+    width: 200px;
+}
+
+.navbar-brand{
+    padding: 0 0 0 3rem;
+}
+
+.navbar .navbar-toggler>span{
+    font-size: 2rem;
+    color: black;
+}
+
+nav li{
+    font-family: poppins;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 0 0 0 3rem;
+}
+
+.navbar .nav-item .nav-link{
+    color: black;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: #6505a5;
+}
+
+@media only screen and (max-width: 375px){
+    .navbar .navbar-brand>img{
+        height: 60px;
+        width: 150px;
+    }
+    .navbar-brand{
+        padding-left: 4.5rem;
+    }
+    nav li{
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 1rem;
+    }
+
+    .navbar .navbar-toggler>span{
+        font-size: 1.5rem;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 792px){
+    nav li{
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 1rem;
+    }
+}
+
+/*End Navigation bar*/
+
+/*Start Home*/
+section{
+    background-color: white;
+}
+
+.site-main .site-banner .title h2,h1,h3{
+    padding-left: 10%;
+}
+
+svg{
+    display: block;
+    width: 100%;
+}
+
+.site-banner .title>h1{
+    color: black;
+    font-weight: bolder;
+    font-family: poppins;
+    font-size: 100px;
+}
+
+.title-text{
+    font-family: roboto;
+    color: #44413e;
+    font-weight: 600;
+}
+
+.site-main .site-banner .support-title > img{
+    width: 30rem;
+    height: 29rem;
+}
+
+.site-main .site-banner .title .buttons{
+    padding-left: 17%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.button{
+    margin-bottom: 1rem;
+    padding: .8rem;
+    border: 3px solid #6505a5;
+    border-radius: 4px;
+    width: 10rem;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.buttons .primary-button{
+    background: linear-gradient(90deg,#0640bd 0%,#6505a5 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.buttons .primary-button:hover{
+    color: black;
+    background-clip: padding-box;
+    background: whitesmoke;
+}
+
+.buttons .secondary-button{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: linear-gradient(90deg,#0640bd 0%,#6505a5 100%);
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.buttons .secondary-button:hover{
+    color: whitesmoke;
+    background-clip: padding-box;
+    background: linear-gradient(90deg,#0640bd 0%,#6505a5 100%);
+}
+
+@media only screen and (max-width: 375px){
+    .site-main .site-banner .support-title > img{
+        width: 25rem;
+        height: 22rem;
+    }
+
+    .site-main .site-banner .title h2,h1,h3{
+        padding-left: 5%;
+    }
+
+    .site-main .site-banner .title>h1{
+        font-size: 80px;
+        font-weight: 550;
+    }
+
+    .site-main .site-banner .title-text{
+        font-weight: 400;
+    }
+
+    .site-main .site-banner .title .buttons{
+        padding-left: 25%;
+    }
+}
+
+/*End Home*/
+
+/*Start about-area*/
+
+.site-main .about .abt-img img{
+    margin-top: 25%;
+    height: 30rem;
+    width: 30em;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 1);
+}
+
+.site-main .about .abt-text h2>span{
+    display: block;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.site-main .about .abt-text .paragraph>p{
+    font-family: roboto;
+    text-justify: initial;
+    padding: .4rem 0;
+    color: #44413e;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 375px){
+    .site-main .about .abt-text{
+        padding-left: 10%;
+    }
+
+    .site-main .about .abt-text h2>span{
+        font-size: 140%;
+        font-weight: 600;
+    }
+
+    .site-main .about .abt-text .paragraph>p{
+        font-weight: 400;
+    }
+}
+
+/*End about-area*/
+
+/*Start services-area*/
+
+.site-main .services .serv-title>h1{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 280%;  
+    padding-right: 10%;
+}
+
+.site-main .services .serv-title>p{
+    font-family: roboto;
+    text-justify: initial;
+    padding: .4rem 0;
+    color: #44413e;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.site-main .services .serv .crd>h5{
+    font-family: roboto;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.site-main .services .serv .crd>p{
+    font-family: roboto;
+    color:  #44413e;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.site-main .services .serv{
+    background-color: rgba(248,252,253,.973);
+    padding: 1rem 0;
+    width: 16rem;
+    margin: 2rem .5rem 0 .5rem;
+}
+
+@media only screen and (max-width: 763px){
+    .site-main .services .serv{
+        width: 16rem;
+        margin-left: 15%;
+    }
+  }
+
+@media only screen and (max-width: 375px){
+    .site-main .services .serv{
+        margin-left: 8%;
+    }
+}
+
+
+/*End services-area*/
+
+/*Start contact-area*/
+
+.site-main .contact .con-title>h1{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 280%;  
+    padding-right: 10%;
+}
+
+.site-main .contact .con-title>p{
+    font-family: roboto;
+    text-justify: initial;
+    padding: .4rem 0;
+    color: #44413e;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.site-main .contact .mail{
+    padding: 2rem 0;
+    margin: 3rem .5rem 0 .5rem;
+}
+
+.site-main .contact .mail a>img{
+    height: 7rem;
+    width: 7rem;
+}
+
+.site-main .contact .mail a>img:hover{
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 1);
+}
+
+/*End contact-area*/
+
+/*Start footer area*/
+
+.footer-area{
+    background-color: white;
+    padding-bottom: 8rem;
+}
+
+.footer-area .social h4{
+    font-family: roboto;
+    text-justify: initial;
+    padding: .7rem 0 3rem 0;
+    color: #44413e;
+    font-weight: 600;
+}
+
+.footer-area .social a{
+    padding: 0rem 1rem;
+}
+
+.footer-area .social a>i{
+    color: black;
+    font-size: 60px;
+}
+
+.footer-area .social a>i:hover{
+    color: #0011ff;
+}
+
+.footer-area .copyright{
+    padding: 2rem 0;
+}
+
+.footer-area .copyright .para1{
+    font-family: roboto;
+    text-justify: initial;
+    padding: .4rem 0;
+    color: #44413e;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.footer-area .copyright .para2{
+    font-family: roboto;
+    text-justify: initial;
+    padding: .4rem 0;
+    color: #44413e;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*End footer area*/
