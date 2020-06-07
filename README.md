@@ -1,4 +1,7 @@
 # Web-Portfolio
+
+To preview the final template or in case of any queries visit: https://aarizanomaly.netlify.app/
+
 It's a design template for a portfolio website. With the help of this, you can create a great responsive portfolio website for representing your professional life.
 
 *In the file index.css you will find the CSS code.
